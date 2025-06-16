@@ -51,8 +51,6 @@ header {
   padding: 16px 0;              /* Add some space above and below the cards */
   width: 948px;                 /* Show only 3 cards at a time (3 x 300px + 2 x 16px gap + padding) */
   margin: 0 auto;               /* Center the container on the page */
-  scroll-snap-type: x mandatory; /* Enable horizontal scroll snapping */
-  scroll-behavior: smooth;        /* Smooth scrolling for snap */
 }
 
 /* Hide the paragraph in each card by default */
